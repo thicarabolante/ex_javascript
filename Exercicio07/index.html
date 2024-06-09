@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name=""viewport"content="width=device-width",
+    initial-scale=1">
+
+    <title>Exercício 7 - Funções para trabalhar com janelas</title>
+    <script>
+        function abrirJanela1() {
+            window.open("https://www.google.com");
+        }
+
+        function abrirJanela2() {
+            window.open("https://www.google.com", "simples", "width = 300, height=400");
+        }
+
+        function abrirJanela3() {
+            window.open("https://www.google.com", "simples", menubar, scrollbars ,"width = 350, height=200");
+        }
+        
+        
+        
+
+       
+    </script>
+</head>
+<body>
+    <form>
+
+        De um clique no botão para abrir uma janela simples:
+        <input type="button" name="abrir" values="Janela1"
+        onClick="abrirJanela1()"><br><br>
+
+        De um clique no botão para abrir uma janela de 350px de largura por
+        400 px de altura, sem barras e menus:
+        <input type="button" name="abrir" values="Janela2"
+        onClick="abrirJanela2()"><br><br>
+
+        De um clique no botão para abrir uma janela com menu e barra de rolagens,
+        mas sem barra de endereço e barra padrão:
+        <input type="button" name="abrir" values="Janela2"
+        onClick="abrirJanela3()"><br><br>
+
+        
+    </form>
+</body>
+</html>
